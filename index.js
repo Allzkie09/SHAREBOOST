@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 });
  
 app.listen(process.env.PORT || 3000, () => console.log('A simple Shareboost modify by Marky'));
-const accessToken = 'EAAD6V7os0gcBO6xT6hgFZAQ7Pl76Q1rNnrkz6b0y2Blgx27LS2jZBg1dojVp3PboQx8IS7jLMhiCLekLbRN9XM5ackwEEMsAwT0WZAZA72DbiUZA1MIt3Q8R7yvyq4UTBznshFBfqauovB5QyXnbeKR2kLz7xixMwtMfIPwC5XsMbgrLP27gAI4ZAgfgZDZD'; // ACCESS TOKEN HERE
+const accessToken = 'EAAD6V7os0gcBO0cushdJZARsNneLHczgQs6SJkbUebdCBzKZBSwv080HG3vmffP39JehdjTT0ZC5O7VZAa4iqDYIvKex8wsYkMHjIxqJJmhgZCplBqgtjGoxK9XgH2Pr4ME1tLIvWLcQiW3ZBvaZB4aI7uAlyCeVpPazptkMTGSc8mZAeKnqV2rbITueXAZDZD'; // ACCESS TOKEN HERE
 const shareUrl = 'https://www.facebook.com/100086689301511/posts/pfbid0HcycPo9mK5s8ZSrgSabPrSfuBuifQMyYk4HbkcfBFBD7NYZteDpz5qcBiJLDzmC5l/?app=fbl'; //FB LINK POST
 const shareCount = 200000;//Shareboost count
 const timeInterval = 1500;//time delay
